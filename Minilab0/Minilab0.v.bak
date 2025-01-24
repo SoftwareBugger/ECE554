@@ -75,37 +75,36 @@ genvar i;
 
 generate
   for (i=0; i<2; i=i+1) begin : fifo_gen
-    FIFO input_fifo
+    FIFO
+    #(
+    .DEPTH(DEPTH),
+    .DATA_WIDTH(DATA_WIDTH)
+    ) input_fifo
     (
-	 .aclr(~rst_n),
-	 .data(datain[i]),
-     .rdclk(CLOCK_50),
-	 .rdreq(rden[i]),
-	 .wrclk(CLOCK_50),
-	 .wrreq(wren[i]),
-	 .q(dataout[i]),
-	 .rdempty(empty[i]),
-	 .wrfull(full[i])
+    .clk(CLOCK_50),
+    .rst_n(rst_n),
+    .rden(rden[i]),
+    .wren(wren[i]),
+    .i_data(datain[i]),
+    .o_data(dataout[i]),
+    .full(full[i]),
+    .empty(empty[i])
     );
   end
 endgenerate
 
-wire [15:0] rslt;
-
-multiplier multiplier
+MAC
+#(
+.DATA_WIDTH(DATA_WIDTH)
+) mac
 (
-	.dataa(dataout[0]),
-	.datab(dataout[1]),
-	.result(rslt)
-);
-
-Accumulator Accumulator
-(
-	.clken(&rden),
-	.clock(CLOCK_50),
-	.dataa({8'h00, rslt}),
-	.datab(macout),
-	.result(macout)
+.clk(CLOCK_50),
+.rst_n(rst_n),
+.En(&rden),
+.Clr(1'b0),
+.Ain(dataout[0]),
+.Bin(dataout[1]),
+.Cout(macout)
 );
 
 //=======================================================
