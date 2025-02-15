@@ -1,0 +1,217 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d//Client/E$$/hlyu42/ECE554
+T_opt
+!s110 1738183828
+VT0S37z4i7llIiHUePZ`M]3
+04 7 4 work fifo_tb fast 0
+=1-4cd71794da93-679a9493-24f-3f44
+R1
+Z3 !s12b OEM100
+Z4 !s124 OEM10U2 
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1738184941
+VL5EAQ`hC^OYI@l_?4PP0B2
+04 6 4 work mac_tb fast 0
+=3-4cd71794da93-679a98ec-3a8-30fc
+R1
+R3
+R4
+R5
+R6
+n@_opt1
+R7
+vAccumulator
+2/filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v
+!s110 1738127052
+!i10b 1
+!s100 MRaO<oo@kH22h8TPJ5Ub=2
+I?dDb^_ge]LZ;A;gYPUA0>2
+Z8 d/filespace/h/hlyu42/ECE554/lab0sim
+w1737747449
+8/filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v
+F/filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v
+!i122 0
+L0 40 41
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OE;L;2023.2_1;77
+r1
+!s85 0
+31
+Z11 !s108 1738127052.000000
+!s107 /filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+n@accumulator
+vFIFO
+2I:/ECE554/Minilab0_hlyu42_jliu2247/fifo.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1738184190
+!i10b 1
+!s100 P]RzcEaSRCUVL75GUSjS81
+I_zl2RJIj][^ZAWEbUMDZ30
+S1
+Z14 dI:/ECE554/lab0sim
+w1737744886
+8I:/ECE554/Minilab0_hlyu42_jliu2247/fifo.sv
+FI:/ECE554/Minilab0_hlyu42_jliu2247/fifo.sv
+!i122 13
+L0 1 61
+R9
+Z15 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z16 !s108 1738184190.000000
+!s107 I:/ECE554/Minilab0_hlyu42_jliu2247/fifo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab0_hlyu42_jliu2247/fifo.sv|
+!i113 0
+Z17 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+n@f@i@f@o
+vfifo_tb
+2I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv
+R13
+!s110 1738184191
+!i10b 1
+!s100 4ID0VN5>M0ASZM>zfF:g30
+I[]ESDVGc1am:C^E9zg8;V0
+S1
+R14
+w1738183805
+8I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv
+FI:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv
+!i122 14
+L0 2 75
+R9
+R15
+r1
+!s85 0
+31
+R16
+!s107 I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv|
+!i113 0
+R17
+R6
+vMAC
+2I:/ECE554/Minilab0_hlyu42_jliu2247/mac.sv
+R13
+!s110 1738184256
+!i10b 1
+!s100 0gTRaiLj@N`?WNWZ66<8M0
+IX2CQZTEBbR^XjH8@fejBR3
+S1
+R14
+w1738184233
+8I:/ECE554/Minilab0_hlyu42_jliu2247/mac.sv
+FI:/ECE554/Minilab0_hlyu42_jliu2247/mac.sv
+!i122 17
+L0 2 45
+R9
+R15
+r1
+!s85 0
+31
+!s108 1738184256.000000
+!s107 I:/ECE554/Minilab0_hlyu42_jliu2247/mac.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab0_hlyu42_jliu2247/mac.sv|
+!i113 0
+R17
+R6
+n@m@a@c
+vmac_tb
+2I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv
+R13
+!s110 1738184934
+!i10b 1
+!s100 ?UoJ=KZR`kkP=b3m1Ool]2
+IiAMg^E?:g;z30DV2gTQL91
+S1
+R14
+w1738184931
+8I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv
+FI:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv
+!i122 20
+L0 2 56
+R9
+R15
+r1
+!s85 0
+31
+!s108 1738184934.000000
+!s107 I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv|
+!i113 0
+R17
+R6
+vMinilab0
+2/filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v
+Z18 !s110 1738127053
+!i10b 1
+!s100 IbQo6YnAf:=JOGO2DIF0Z3
+I`2[5EdkZA>QlnKl7UJShD1
+R8
+w1738102371
+8/filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v
+F/filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v
+!i122 6
+L0 6 339
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 /filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v|
+!i113 0
+R12
+R6
+n@minilab0
+vmultiplier
+2/filespace/h/hlyu42/ECE554/Minilab0/multiplier.v
+R18
+!i10b 1
+!s100 3:Yc^QPGnRkJlHVVh<GoL3
+IhIn7OjL:LV`B8RE9oWgN11
+R8
+w1737747180
+8/filespace/h/hlyu42/ECE554/Minilab0/multiplier.v
+F/filespace/h/hlyu42/ECE554/Minilab0/multiplier.v
+!i122 7
+L0 40 31
+R9
+R10
+r1
+!s85 0
+31
+!s108 1738127053.000000
+!s107 /filespace/h/hlyu42/ECE554/Minilab0/multiplier.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/filespace/h/hlyu42/ECE554/Minilab0/multiplier.v|
+!i113 0
+R12
+R6

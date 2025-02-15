@@ -1,0 +1,50 @@
+/filespace/h/hlyu42/ECE554/Minilab0/multiplier.v {1 {vlog -work work -vopt -stats=none /filespace/h/hlyu42/ECE554/Minilab0/multiplier.v
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/fifo.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/h/hlyu42/ECE554/Minilab0/fifo.sv
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v {1 {vlog -work work -vopt -stats=none /filespace/h/hlyu42/ECE554/Minilab0/Minilab0.v
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module Minilab0
+
+Top level modules:
+	Minilab0
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/mac.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/h/hlyu42/ECE554/Minilab0/mac.sv
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/fifo_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/h/hlyu42/ECE554/Minilab0/fifo_tb.sv
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module fifo_tb
+
+Top level modules:
+	fifo_tb
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v {1 {vlog -work work -vopt -stats=none /filespace/h/hlyu42/ECE554/Minilab0/Accumulator.v
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module Accumulator
+
+Top level modules:
+	Accumulator
+
+} {} {}} /filespace/h/hlyu42/ECE554/Minilab0/mac_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/h/hlyu42/ECE554/Minilab0/mac_tb.sv
+QuestaSim vlog 2023.2_1 Compiler 2023.05 May 12 2023
+-- Compiling module mac_tb
+
+Top level modules:
+	mac_tb
+
+} {} {}}

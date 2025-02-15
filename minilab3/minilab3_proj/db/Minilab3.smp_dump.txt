@@ -1,0 +1,8 @@
+
+State Machine - |Minilab3|driver:driver0|state
+Name state.TX_START state.CFG2 state.TX state.IDLE state.RX_READ 
+state.IDLE 0 0 0 0 0 
+state.TX 0 0 1 1 0 
+state.CFG2 0 1 0 1 0 
+state.TX_START 1 0 0 1 0 
+state.RX_READ 0 0 0 1 1 

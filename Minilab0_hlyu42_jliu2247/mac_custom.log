@@ -1,0 +1,23 @@
+vsim -l simulation.log work.mac_tb
+# End time: 13:21:17 on Jan 29,2025, Elapsed time: 0:04:31
+# Errors: 0, Warnings: 1
+# vsim -l simulation.log work.mac_tb 
+# Start time: 13:21:17 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+quit -sim
+# End time: 13:21:29 on Jan 29,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+vsim work.mac_tb -l simulation.log
+# vsim work.mac_tb -l simulation.log 
+# Start time: 13:21:41 on Jan 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ece554/mac_tb.sv(52)
+#    Time: 60 ns  Iteration: 1  Instance: /mac_tb
+# Break at I:/ece554/mac_tb.sv line 52
+transcript file ""

@@ -1,0 +1,846 @@
+# Compile of driver.sv was successful.
+# Compile of lab1_spart.v was successful.
+# Compile of spart_tb.sv was successful.
+# Compile of UART_rx.sv was successful.
+# Compile of UART_tx.sv was successful.
+# Compile of spart.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of spart.sv was successful.
+# Compile of driver.sv was successful.
+# Compile of lab1_spart.v was successful.
+# Compile of spart_tb.sv failed with 1 errors.
+# Compile of UART_rx.sv was successful.
+# Compile of UART_tx.sv was successful.
+# Compile of spart.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of spart_tb.sv failed with 1 errors.
+# Compile of spart_tb.sv was successful.
+vsim work.spart_tb
+# vsim work.spart_tb 
+# Start time: 15:24:18 on Feb 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: I:/ECE554/minilab3/spart_tb.sv(26): (vopt-2241) Connection width does not match width of port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/driver.sv(28).
+# ** Error (suppressible): I:/ECE554/minilab3/spart_tb.sv(26): (vopt-8885) Illegal inout port connection for 'databus' (9th connection) to reg type. 
+# ** Warning: I:/ECE554/minilab3/spart.sv(56): (vopt-2241) Connection width does not match width of port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+# ** Warning: I:/ECE554/minilab3/spart_tb.sv(12): (vopt-2241) Connection width does not match width of port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/spart.sv(27).
+# ** Error (suppressible): I:/ECE554/minilab3/spart_tb.sv(12): (vopt-8885) Illegal inout port connection for 'databus' (8th connection) to reg type. 
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=3.
+# Error loading design
+# End time: 15:24:22 on Feb 14,2025, Elapsed time: 0:00:04
+# Errors: 2, Warnings: 10
+# Compile of spart_tb.sv was successful.
+vsim work.spart_tb
+# vsim work.spart_tb 
+# Start time: 15:25:01 on Feb 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: I:/ECE554/minilab3/spart_tb.sv(26): (vopt-2241) Connection width does not match width of port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/driver.sv(28).
+# ** Warning: I:/ECE554/minilab3/spart.sv(56): (vopt-2241) Connection width does not match width of port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+# ** Warning: I:/ECE554/minilab3/spart_tb.sv(12): (vopt-2241) Connection width does not match width of port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/spart.sv(27).
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+add wave -position insertpoint sim:/spart_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hlyu42  Hostname: WIN-8105  ProcessID: 2932
+#           Attempting to use alternate WLF file "./wlftwx0btr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwx0btr
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/spart_tb/*'.
+vsim work.spart_tb -voptargs=+acc
+# End time: 15:25:24 on Feb 14,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 7
+# vsim work.spart_tb -voptargs="+acc" 
+# Start time: 15:25:24 on Feb 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/spart.sv(27).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1 File: I:/ECE554/minilab3/spart_tb.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/driver.sv(28).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart_driver File: I:/ECE554/minilab3/spart_tb.sv Line: 26
+add wave -position insertpoint sim:/spart_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hlyu42  Hostname: WIN-8105  ProcessID: 2932
+#           Attempting to use alternate WLF file "./wlft7nja16".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7nja16
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/spart.sv(27).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1 File: I:/ECE554/minilab3/spart_tb.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/driver.sv(28).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart_driver File: I:/ECE554/minilab3/spart_tb.sv Line: 26
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(58)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 58
+add wave -position insertpoint sim:/spart_tb/spart1/U_RX/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/spart.sv(27).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1 File: I:/ECE554/minilab3/spart_tb.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ioaddr'. The port definition is at: I:/ECE554/minilab3/driver.sv(28).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart_driver File: I:/ECE554/minilab3/spart_tb.sv Line: 26
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(58)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 58
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/databus
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/databus
+# Compile of driver.sv was successful.
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart_driver/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Compile of driver.sv failed with 2 errors.
+# Compile of spart.sv was successful.
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 56
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Causality operation skipped due to absence of debug database file
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+add wave -position insertpoint sim:/spart_tb/spart1/*
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Compile of driver.sv was successful.
+# Compile of spart.sv failed with 2 errors.
+# Compile of spart.sv failed with 2 errors.
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart1/U_TX/*
+add wave -position insertpoint sim:/spart_tb/spart1/U_RX/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+add wave -position insertpoint sim:/spart_tb/spart1/U_RX/*
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Compile of UART_rx.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 960035 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart1/*
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart_driver/*
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(60)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 60
+add wave -position insertpoint sim:/spart_tb/spart1/U_RX/*
+add wave -position insertpoint sim:/spart_tb/spart1/U_TX/*
+# Compile of driver.sv was successful.
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(59)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 59
+add wave -position insertpoint sim:/spart_tb/spart1/U_TX/*
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/ioaddr
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/rda
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_RX/rx_data
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_RX/RX
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_RX/rdy
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_RX/shift
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(59)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 59
+add wave -position insertpoint sim:/spart_tb/spart1/*
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/state
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/databus
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/rda
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/databus_out
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/baud_cnt
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/rda
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/br_cfg
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(59)
+#    Time: 1145795 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 59
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 1145775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_TX/state
+add wave -position insertpoint sim:/spart_tb/spart1/U_TX/*
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 1145775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 1145775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+add wave -position insertpoint  \
+sim:/spart_tb/spart1/U_RX/rx_data
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv failed with 3 errors.
+# Compile of driver.sv failed with 2 errors.
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'rx_data'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 57
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv failed with 1 errors.
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+add wave -position insertpoint  \
+sim:/spart_tb/spart_driver/databus_ff
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of driver.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(55)
+#    Time: 3124815 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 55
+# Compile of spart_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(65)
+#    Time: 6353775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 65
+add wave -position insertpoint sim:/spart_tb/spart1/U_TX/*
+add wave -position insertpoint sim:/spart_tb/spart1/U_RX/*
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr_rdy'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 60
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(65)
+#    Time: 6353775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 65
+# Compile of spart.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.spart_tb(fast)
+# Loading work.spart(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.driver(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr_rdy'. The port definition is at: I:/ECE554/minilab3/UART_rx.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /spart_tb/spart1/U_RX File: I:/ECE554/minilab3/spart.sv Line: 60
+run -all
+# ** Note: $stop    : I:/ECE554/minilab3/spart_tb.sv(65)
+#    Time: 6353775 ns  Iteration: 1  Instance: /spart_tb
+# Break in Module spart_tb at I:/ECE554/minilab3/spart_tb.sv line 65

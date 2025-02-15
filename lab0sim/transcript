@@ -1,0 +1,194 @@
+# Compile of fifo.sv was successful.
+# Compile of fifo_tb.sv was successful.
+# Compile of mac.sv was successful.
+# Compile of mac_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.fifo_tb -voptargs=+acc
+# vsim work.fifo_tb -voptargs="+acc" 
+# Start time: 14:48:29 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'aclr' not found in module 'FIFO' (1st connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'data' not found in module 'FIFO' (2nd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdclk' not found in module 'FIFO' (3rd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdreq' not found in module 'FIFO' (4th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrclk' not found in module 'FIFO' (5th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrreq' not found in module 'FIFO' (6th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'q' not found in module 'FIFO' (7th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdempty' not found in module 'FIFO' (8th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrfull' not found in module 'FIFO' (9th connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=9, Warnings=1.
+# Error loading design
+# End time: 14:48:33 on Jan 29,2025, Elapsed time: 0:00:04
+# Errors: 9, Warnings: 4
+vsim work.fifo_tb -voptargs=+acc
+# vsim work.fifo_tb -voptargs="+acc" 
+# Start time: 14:49:54 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'aclr' not found in module 'FIFO' (1st connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'data' not found in module 'FIFO' (2nd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdclk' not found in module 'FIFO' (3rd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdreq' not found in module 'FIFO' (4th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrclk' not found in module 'FIFO' (5th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrreq' not found in module 'FIFO' (6th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'q' not found in module 'FIFO' (7th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdempty' not found in module 'FIFO' (8th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrfull' not found in module 'FIFO' (9th connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=9, Warnings=1.
+# Error loading design
+# End time: 14:49:57 on Jan 29,2025, Elapsed time: 0:00:03
+# Errors: 9, Warnings: 2
+vsim work.fifo_tb -voptargs=+acc
+# vsim work.fifo_tb -voptargs="+acc" 
+# Start time: 14:50:09 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'aclr' not found in module 'FIFO' (1st connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'data' not found in module 'FIFO' (2nd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdclk' not found in module 'FIFO' (3rd connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdreq' not found in module 'FIFO' (4th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrclk' not found in module 'FIFO' (5th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrreq' not found in module 'FIFO' (6th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'q' not found in module 'FIFO' (7th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'rdempty' not found in module 'FIFO' (8th connection).
+# ** Error (suppressible): I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(22): (vopt-2912) Port 'wrfull' not found in module 'FIFO' (9th connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=9, Warnings=1.
+# Error loading design
+# End time: 14:50:12 on Jan 29,2025, Elapsed time: 0:00:03
+# Errors: 9, Warnings: 2
+# Compile of fifo_tb.sv was successful.
+vsim work.fifo_tb -voptargs=+acc
+# vsim work.fifo_tb -voptargs="+acc" 
+# Start time: 14:50:25 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.fifo_tb(fast)
+# Loading work.FIFO(fast)
+add wave -position insertpoint sim:/fifo_tb/input_fifo/*
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv(72)
+#    Time: 190 ns  Iteration: 1  Instance: /fifo_tb
+# Break in Module fifo_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/fifo_tb.sv line 72
+# Compile of fifo.sv was successful.
+# Compile of fifo_tb.sv was successful.
+# Compile of mac_tb.sv was successful.
+# Compile of mac.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of mac.sv was successful.
+vsim -voptargs=+acc work.fifo_tb
+# End time: 14:58:14 on Jan 29,2025, Elapsed time: 0:07:49
+# Errors: 0, Warnings: 7
+# vsim -voptargs="+acc" work.fifo_tb 
+# Start time: 14:58:14 on Jan 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.fifo_tb(fast)
+# Loading work.FIFO(fast)
+add wave -position insertpoint sim:/fifo_tb/input_fifo/*
+vsim -voptargs=+acc work.mac_tb
+# End time: 14:59:06 on Jan 29,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.mac_tb 
+# Start time: 14:59:06 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+add wave -position insertpoint sim:/mac_tb/mac/*
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(57)
+#    Time: 20 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 57
+# Compile of mac_tb.sv was successful.
+vsim -voptargs=+acc work.mac_tb
+# End time: 15:01:18 on Jan 29,2025, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.mac_tb 
+# Start time: 15:01:18 on Jan 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/mac_tb/mac/*
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(57)
+#    Time: 20 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 57
+vsim -voptargs=+acc work.mac_tb
+# End time: 15:03:18 on Jan 29,2025, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.mac_tb 
+# Start time: 15:03:18 on Jan 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+add wave -position insertpoint sim:/mac_tb/mac/*
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(57)
+#    Time: 20 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 57
+# Compile of mac_tb.sv was successful.
+vsim -voptargs=+acc work.mac_tb
+# End time: 15:04:19 on Jan 29,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.mac_tb 
+# Start time: 15:04:19 on Jan 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+add wave -position insertpoint sim:/mac_tb/mac/*
+run -al
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(57)
+#    Time: 60 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 57
+add wave -position insertpoint sim:/mac_tb/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(57)
+#    Time: 60 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 57
+add wave -position insertpoint  \
+sim:/mac_tb/mac/En
+# Compile of mac_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+add wave -position insertpoint  \
+sim:/mac_tb/mac/En
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv(54)
+#    Time: 50 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at I:/ECE554/Minilab0_hlyu42_jliu2247/mac_tb.sv line 54
+# End time: 15:10:59 on Jan 29,2025, Elapsed time: 0:06:40
+# Errors: 0, Warnings: 2

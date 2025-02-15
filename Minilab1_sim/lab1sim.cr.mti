@@ -1,0 +1,49 @@
+I:/ECE554/Minilab1/input_mem.mif {0 {vcom -work work -2002 -explicit -vopt -stats=none I:/ECE554/Minilab1/input_mem.mif
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+** Error: I:/ECE554/Minilab1/input_mem.mif(2): near "WIDTH": syntax error
+** Note: I:/ECE554/Minilab1/input_mem.mif(2): VHDL Compiler exiting
+
+} {4.0 5.0} {}} I:/ECE554/Minilab1/fifo_filler_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab1/fifo_filler_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module fifo_filler_tb
+
+Top level modules:
+	fifo_filler_tb
+
+} {} {}} I:/ECE554/Minilab1/top.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab1/top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} I:/ECE554/Minilab1/multiplication_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab1/multiplication_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module multiplication_tb
+
+Top level modules:
+	multiplication_tb
+
+} {} {}} I:/ECE554/Minilab1/rom.v {1 {vlog -work work -vopt -stats=none I:/ECE554/Minilab1/rom.v
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} I:/ECE554/Minilab1/top_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab1/top_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} I:/ECE554/Minilab1/fifo.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab1/fifo.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}}

@@ -1,0 +1,23 @@
+vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt work.mac_tb -voptargs=+acc
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt work.mac_tb -voptargs="+acc" 
+# Start time: 14:38:20 on Jan 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.mac_tb(fast)
+# Loading work.MAC(fast)
+# Loading work.multiplier(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model.lpm_mult(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model.LPM_HINT_EVALUATION(fast)
+# Loading work.Accumulator(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model.lpm_add_sub(fast)
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : C:/ECE554/Minilab0/mac_tb.sv(57)
+#    Time: 20 ns  Iteration: 1  Instance: /mac_tb
+# Break in Module mac_tb at C:/ECE554/Minilab0/mac_tb.sv line 57
+set PrefMain(saveFile) mac_ip_log
+# mac_ip_log
+# End time: 14:39:11 on Jan 29,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2

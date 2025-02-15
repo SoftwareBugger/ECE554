@@ -1,0 +1,690 @@
+# Compile of fifo.sv was successful.
+# Compile of mac.sv was successful.
+# Compile of memory.v was successful.
+# Compile of Multiplication.sv was successful.
+# Compile of rom.v was successful.
+# Compile of multiplication_tb.sv was successful.
+# Compile of Multi_single.sv was successful.
+# Compile of fifo_filler.sv was successful.
+# Compile of fifo_filler_tb.sv was successful.
+# Compile of input_mem.mif failed with 1 errors.
+# Compile of top.sv was successful.
+# Compile of top_tb.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Load canceled
+vsim work.top_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs="+acc"
+# vsim work.top_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs=""+acc"" 
+# Start time: 17:09:15 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/top.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo_filler.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/memory.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/rom.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/rom.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error: I:/ECE554/Minilab1/rom.v(59): Module 'altsyncram' is not defined.
+#  For instance 'altsyncram_component' at path 'top_tb.minilab1.filler.mem_access.memory'
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/Multiplication.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/Multi_single.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=73, Warnings=25.
+# Error loading design
+# End time: 17:09:18 on Feb 05,2025, Elapsed time: 0:00:03
+# Errors: 73, Warnings: 27
+vsim work.top_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs="+acc"
+# vsim work.top_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs=""+acc"" 
+# Start time: 17:09:45 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/top.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo_filler.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/memory.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/rom.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/rom.v(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error: I:/ECE554/Minilab1/rom.v(59): Module 'altsyncram' is not defined.
+#  For instance 'altsyncram_component' at path 'top_tb.minilab1.filler.mem_access.memory'
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/Multiplication.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/Multi_single.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/mac.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: I:/ECE554/Minilab1/fifo.sv(1): (vopt-2669) Unable to find library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf'.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=73, Warnings=25.
+# Error loading design
+# End time: 17:09:48 on Feb 05,2025, Elapsed time: 0:00:03
+# Errors: 73, Warnings: 26
+ vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt work.top_tb -voptargs=+acc
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt work.top_tb -voptargs="+acc" 
+# Start time: 17:10:41 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "top(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "fifo_filler(fast)".
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(13): (vopt-2685) [TFMPC] - Too few port connections for 'minilab1'.  Expected 6, found 5.
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(13): (vopt-2718) [TFMPC] - Missing connection for port 'Clr'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "memory(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.fifo_filler(fast)
+# Loading work.memory(fast)
+# Loading work.rom(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.Multiplication(fast)
+# Loading work.Multi_single(fast)
+# Loading work.MAC(fast)
+# Loading work.FIFO(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: I:/ECE554/Minilab1/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/minilab1/filler/mem_access/memory File: I:/ECE554/Minilab1/memory.v Line: 25
+run -all
+# Starting Computations
+# Computations Finished, Beginning MAC Check
+# MAC           0 expected contents:0030c
+# MAC           0 contents:00030c
+# TEST           0 PASSED
+# MAC           1 expected contents:0054c
+# MAC           1 contents:00054c
+# TEST           1 PASSED
+# MAC           2 expected contents:0078c
+# MAC           2 contents:00078c
+# TEST           2 PASSED
+# MAC           3 expected contents:009cc
+# MAC           3 contents:0009cc
+# TEST           3 PASSED
+# MAC           4 expected contents:00c0c
+# MAC           4 contents:000c0c
+# TEST           4 PASSED
+# MAC           5 expected contents:00e4c
+# MAC           5 contents:000e4c
+# TEST           5 PASSED
+# MAC           6 expected contents:0108c
+# MAC           6 contents:00108c
+# TEST           6 PASSED
+# MAC           7 expected contents:012cc
+# MAC           7 contents:0012cc
+# TEST           7 PASSED
+# YAHOO: Values Calculated Correctly
+# ** Note: $stop    : I:/ECE554/Minilab1/top_tb.sv(64)
+#    Time: 3075 ns  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at I:/ECE554/Minilab1/top_tb.sv line 64
+vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs=+acc work.fifo_filler_tb
+# End time: 17:12:18 on Feb 05,2025, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 5
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs="+acc" work.fifo_filler_tb 
+# Start time: 17:12:18 on Feb 05,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "fifo_filler(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "memory(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.fifo_filler_tb(fast)
+# Loading work.FIFO(fast)
+# Loading work.fifo_filler(fast)
+# Loading work.memory(fast)
+# Loading work.rom(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: I:/ECE554/Minilab1/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_filler_tb/filler/mem_access/memory File: I:/ECE554/Minilab1/memory.v Line: 25
+run -all
+# Starting FIFO Filling
+# Done Filling FIFOs, Beginning Contents Check
+# FIFO           0 contents:0102030405060708
+# FIFO           1 contents:1112131415161718
+# FIFO           2 contents:2122232425262728
+# FIFO           3 contents:3132333435363738
+# FIFO           4 contents:4142434445464748
+# FIFO           5 contents:5152535455565758
+# FIFO           6 contents:6162636465666768
+# FIFO           7 contents:7172737475767778
+# FIFO           8 contents:8182838485868788
+# ** Note: $stop    : I:/ECE554/Minilab1/fifo_filler_tb.sv(120)
+#    Time: 3625 ns  Iteration: 1  Instance: /fifo_filler_tb
+# Break in Module fifo_filler_tb at I:/ECE554/Minilab1/fifo_filler_tb.sv line 120
+vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs=+acc work.multiplication_tb
+# End time: 17:13:39 on Feb 05,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 3
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs="+acc" work.multiplication_tb 
+# Start time: 17:13:39 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.multiplication_tb(fast)
+# Loading work.Multiplication(fast)
+# Loading work.FIFO(fast)
+# Loading work.Multi_single(fast)
+# Loading work.MAC(fast)
+run -all
+# C[          0]=000010
+# C[          1]=000018
+# C[          2]=000020
+# C[          3]=000028
+# C[          4]=000030
+# C[          5]=000038
+# C[          6]=000040
+# C[          7]=00003f
+# ** Note: $stop    : I:/ECE554/Minilab1/multiplication_tb.sv(83)
+#    Time: 345 ns  Iteration: 2  Instance: /multiplication_tb
+# Break in Module multiplication_tb at I:/ECE554/Minilab1/multiplication_tb.sv line 83
+add wave -position insertpoint sim:/multiplication_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hlyu42  Hostname: WIN-8118  ProcessID: 12048
+#           Attempting to use alternate WLF file "./wlft827ra8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft827ra8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.multiplication_tb(fast)
+# Loading work.Multiplication(fast)
+# Loading work.FIFO(fast)
+# Loading work.Multi_single(fast)
+# Loading work.MAC(fast)
+run -all
+# C[          0]=000010
+# C[          1]=000018
+# C[          2]=000020
+# C[          3]=000028
+# C[          4]=000030
+# C[          5]=000038
+# C[          6]=000040
+# C[          7]=00003f
+# ** Note: $stop    : I:/ECE554/Minilab1/multiplication_tb.sv(83)
+#    Time: 345 ns  Iteration: 2  Instance: /multiplication_tb
+# Break in Module multiplication_tb at I:/ECE554/Minilab1/multiplication_tb.sv line 83
+vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs=+acc work.top_tb
+# End time: 17:17:55 on Feb 05,2025, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 2
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs="+acc" work.top_tb 
+# Start time: 17:17:55 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "top(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "fifo_filler(fast)".
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(13): (vopt-2685) [TFMPC] - Too few port connections for 'minilab1'.  Expected 6, found 5.
+# ** Warning: I:/ECE554/Minilab1/top_tb.sv(13): (vopt-2718) [TFMPC] - Missing connection for port 'Clr'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "memory(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.fifo_filler(fast)
+# Loading work.memory(fast)
+# Loading work.rom(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.Multiplication(fast)
+# Loading work.Multi_single(fast)
+# Loading work.MAC(fast)
+# Loading work.FIFO(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: I:/ECE554/Minilab1/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/minilab1/filler/mem_access/memory File: I:/ECE554/Minilab1/memory.v Line: 25
+add wave -position insertpoint sim:/top_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hlyu42  Hostname: WIN-8118  ProcessID: 12048
+#           Attempting to use alternate WLF file "./wlfta09rz5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta09rz5
+run -all
+# Starting Computations
+# Computations Finished, Beginning MAC Check
+# MAC           0 expected contents:0030c
+# MAC           0 contents:00030c
+# TEST           0 PASSED
+# MAC           1 expected contents:0054c
+# MAC           1 contents:00054c
+# TEST           1 PASSED
+# MAC           2 expected contents:0078c
+# MAC           2 contents:00078c
+# TEST           2 PASSED
+# MAC           3 expected contents:009cc
+# MAC           3 contents:0009cc
+# TEST           3 PASSED
+# MAC           4 expected contents:00c0c
+# MAC           4 contents:000c0c
+# TEST           4 PASSED
+# MAC           5 expected contents:00e4c
+# MAC           5 contents:000e4c
+# TEST           5 PASSED
+# MAC           6 expected contents:0108c
+# MAC           6 contents:00108c
+# TEST           6 PASSED
+# MAC           7 expected contents:012cc
+# MAC           7 contents:0012cc
+# TEST           7 PASSED
+# YAHOO: Values Calculated Correctly
+# ** Note: $stop    : I:/ECE554/Minilab1/top_tb.sv(64)
+#    Time: 3075 ns  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at I:/ECE554/Minilab1/top_tb.sv line 64
+add wave -position insertpoint  \
+sim:/top_tb/clk \
+sim:/top_tb/rst_n \
+sim:/top_tb/start \
+sim:/top_tb/done \
+sim:/top_tb/Clr \
+sim:/top_tb/C \
+sim:/top_tb/cnt \
+sim:/top_tb/expected
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.fifo_filler(fast)
+# Loading work.memory(fast)
+# Loading work.rom(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.Multiplication(fast)
+# Loading work.Multi_single(fast)
+# Loading work.MAC(fast)
+# Loading work.FIFO(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: I:/ECE554/Minilab1/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/minilab1/filler/mem_access/memory File: I:/ECE554/Minilab1/memory.v Line: 25
+run -all
+# Starting Computations
+# Computations Finished, Beginning MAC Check
+# MAC           0 expected contents:0030c
+# MAC           0 contents:00030c
+# TEST           0 PASSED
+# MAC           1 expected contents:0054c
+# MAC           1 contents:00054c
+# TEST           1 PASSED
+# MAC           2 expected contents:0078c
+# MAC           2 contents:00078c
+# TEST           2 PASSED
+# MAC           3 expected contents:009cc
+# MAC           3 contents:0009cc
+# TEST           3 PASSED
+# MAC           4 expected contents:00c0c
+# MAC           4 contents:000c0c
+# TEST           4 PASSED
+# MAC           5 expected contents:00e4c
+# MAC           5 contents:000e4c
+# TEST           5 PASSED
+# MAC           6 expected contents:0108c
+# MAC           6 contents:00108c
+# TEST           6 PASSED
+# MAC           7 expected contents:012cc
+# MAC           7 contents:0012cc
+# TEST           7 PASSED
+# YAHOO: Values Calculated Correctly
+# ** Note: $stop    : I:/ECE554/Minilab1/top_tb.sv(64)
+#    Time: 3075 ns  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at I:/ECE554/Minilab1/top_tb.sv line 64
+vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs=+acc work.fifo_filler_tb
+# End time: 17:19:48 on Feb 05,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 5
+# vsim -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf -L C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/220model -vopt -voptargs="+acc" work.fifo_filler_tb 
+# Start time: 17:19:48 on Feb 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "fifo_filler(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "memory(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.fifo_filler_tb(fast)
+# Loading work.FIFO(fast)
+# Loading work.fifo_filler(fast)
+# Loading work.memory(fast)
+# Loading work.rom(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.altsyncram_body(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_DEVICE_FAMILIES(fast)
+# Loading C:/intelFPGA_lite/23.1std/questa_fse/intel/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: I:/ECE554/Minilab1/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_filler_tb/filler/mem_access/memory File: I:/ECE554/Minilab1/memory.v Line: 25
+add wave -position insertpoint sim:/fifo_filler_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hlyu42  Hostname: WIN-8118  ProcessID: 12048
+#           Attempting to use alternate WLF file "./wlft12rmi6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft12rmi6
+run -all
+# Starting FIFO Filling
+# Done Filling FIFOs, Beginning Contents Check
+# FIFO           0 contents:0102030405060708
+# FIFO           1 contents:1112131415161718
+# FIFO           2 contents:2122232425262728
+# FIFO           3 contents:3132333435363738
+# FIFO           4 contents:4142434445464748
+# FIFO           5 contents:5152535455565758
+# FIFO           6 contents:6162636465666768
+# FIFO           7 contents:7172737475767778
+# FIFO           8 contents:8182838485868788
+# ** Note: $stop    : I:/ECE554/Minilab1/fifo_filler_tb.sv(120)
+#    Time: 3625 ns  Iteration: 1  Instance: /fifo_filler_tb
+# Break in Module fifo_filler_tb at I:/ECE554/Minilab1/fifo_filler_tb.sv line 120

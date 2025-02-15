@@ -1,0 +1,42 @@
+# No design specified
+vsim worl.fifo_tb -l simulation.log
+# End time: 13:16:28 on Jan 29,2025, Elapsed time: 0:09:09
+# Errors: 0, Warnings: 5
+# vsim worl.fifo_tb -l simulation.log 
+# Start time: 13:16:28 on Jan 29,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'worl' at "worl".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 13:16:30 on Jan 29,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+vsim work.fifo_tb -l simulation.log
+# vsim work.fifo_tb -l simulation.log 
+# Start time: 13:16:46 on Jan 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.fifo_tb(fast)
+run -all
+# Yahoo! All test passed!
+# ** Note: $stop    : I:/ece554/fifo_tb.sv(59)
+#    Time: 180 ns  Iteration: 1  Instance: /fifo_tb
+# Break at I:/ece554/fifo_tb.sv line 59
+transcript file simulation.log
+run -all
+# Break key hit
+# Simulation stop requested.
+trancript file ""
+# invalid command name "trancript"
+
+
+dir simulation.log
+#  Volume in drive I is SV20000024
+#  Volume Serial Number is 2000-0024
+# 
+#  Directory of I:\ece554
+# 
+# 01/29/2025  01:19 PM             1,042 simulation.log
+#                1 File(s)          1,042 bytes
+#                0 Dir(s)  28,200,864,768 bytes free
+transcript file
+# simulation.log
+transcript file ""
